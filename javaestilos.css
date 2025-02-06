@@ -1,0 +1,36 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing:border-box;
+}
+
+.cal {
+    display:block;
+    width: 50%;
+    margin: auto;
+    padding: 10%;
+    background-color: rgba(62, 236, 234, .5);
+}
+
+.t {
+    width: 35%;
+    margin:5%;
+    padding: 2% 0;
+    
+}
+
+.t:focus{
+    border: 3px solid #8a1493;
+    outline: none;
+}
+
+.botones {
+    width:100%;
+    margin: auto;
+}
+
+input[type="button"] {
+    margin: 2%;
+    padding: 0 2%;
+    width: 20%;
+}
